@@ -26,6 +26,8 @@ extern "C" { /* } */
 #define STRING_(x) #x
 #define STRING(x) STRING_(x)
 
+#define BIT(x) (1ul << (x))
+
 #define BIT0 0x01
 #define BIT1 0x02
 #define BIT2 0x04
