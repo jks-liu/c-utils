@@ -8,6 +8,8 @@
 extern "C" { /* } */
 #endif
 
+#define JKS_C_UTILS_VERSION "v0.0.1"
+
 #ifndef ROM
 #define ROM
 #endif
