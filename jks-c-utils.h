@@ -66,7 +66,6 @@ extern "C" { /* } */
 #define BIT31 0x80000000ul
 #define BIT_UL(x) (1ul << (x))
 
-#if (__STDC_VERSION__ >= 199901L)
 #define BIT32 0x0000000100000000ull
 #define BIT33 0x0000000200000000ull
 #define BIT34 0x0000000400000000ull
@@ -100,7 +99,13 @@ extern "C" { /* } */
 #define BIT62 0x4000000000000000ull
 #define BIT63 0x8000000000000000ull
 #define BIT_ULL(x) (1ull << (x))
-#endif
+
+#define ASCII_ART_0 ) * 2
+#define ASCII_ART_1 ) * 2 + 1
+#define ASCII_ART_8BIT_BEGIN ((((((((0
+#define ASCII_ART_16BIT_BEGIN ((((((((((((((((0u
+#define ASCII_ART_32BIT_BEGIN ((((((((((((((((((((((((((((((((0ul
+#define ASCII_ART_64BIT_BEGIN ((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((0ull
 
 
 #ifdef __cplusplus
